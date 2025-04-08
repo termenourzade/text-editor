@@ -1,6 +1,3 @@
-# text-editor
-
-
 ### موضوع تمرین:
 در این تمرین، شما باید متدهای موجود در کلاس `FileManager` را تکمیل کنید تا قابلیت‌های "باز کردن فایل"، "ذخیره فایل" و "ایجاد فایل جدید" را در ویرایشگر متن ساده پیاده‌سازی نمایید.
 
@@ -10,6 +7,7 @@
 ```java
 src/editor/FileManager.java
 ```
+
 
 ---
 
@@ -35,9 +33,9 @@ src/editor/FileManager.java
 برای انجام این تمرین، شما باید ریپو پروژه را فورک کنید.
 
 لینک ریپو پروژه:  
-`https://github.com/ap-java-aut/Text-Editor`
+`https://github.com/ap-java-aut/text-editor`
 
 راهنمای فورک کردن پروژه در گیت‌هاب:  
 `https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo`
 
-پس از اتمام پروژه لینک ریپو خودتان را در یک فایل متنی (txt) آپلود کنید.
+پس از اتمام پروژه لینک ریپو خودتون را توی یک فایل txt آپلود کنید.
