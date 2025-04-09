@@ -3,18 +3,22 @@ package editor;
 import javax.swing.*;
 
 public class FileManager {
-    public static void openFile(JFrame parent, JTextArea textArea) {
+    public static void openFile(TextEditor textEditor, JTextArea textArea) {
         JFileChooser fileChooser = new JFileChooser();
-        if (fileChooser.showOpenDialog(parent) == JFileChooser.APPROVE_OPTION) {
+        if (fileChooser.showOpenDialog(textEditor) == JFileChooser.APPROVE_OPTION) {
             //File file = fileChooser.getSelectedFile();
             //TODO
         }
     }
 
-    public static void saveFile(JFrame parent, JTextArea textArea) {
-        JFileChooser fileChooser = new JFileChooser();
-        if (fileChooser.showSaveDialog(parent) == JFileChooser.APPROVE_OPTION) {
-            //File file = fileChooser.getSelectedFile();
+    public static void saveFile(TextEditor textEditor, JTextArea textArea) {
+        if (textEditor.currentFile == null){
+            JFileChooser fileChooser = new JFileChooser();
+            if (fileChooser.showSaveDialog(textEditor) == JFileChooser.APPROVE_OPTION) {
+                //TODO
+            }
+        }
+        else{
             //TODO
         }
     }

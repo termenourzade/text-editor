@@ -2,8 +2,10 @@ package editor;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.File;
 
 public class TextEditor extends JFrame {
+    File currentFile;
     private final JTextArea textArea;
 
     public TextEditor() {
