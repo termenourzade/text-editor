@@ -15,7 +15,7 @@ public class FileManager {
                 String temp;
                 do {
                     temp = reader.readLine();
-                    textArea.append(temp);
+                    textArea.append(temp + "\n");
                 }while (temp != null);
                 reader.close();
             } catch (FileNotFoundException e) {
